@@ -1,0 +1,28 @@
+name: massicot
+description: Flashcards recto verso à imprimer sur A4 et à couper au massicot.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  pdf: ^3.11.1
+  printing: ^5.13.4
+  file_selector: ^1.0.3
+  path_provider: ^2.1.4
+  archive: ">=3.6.1 <5.0.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/DejaVuSans.ttf
+    - assets/fonts/DejaVuSans-Bold.ttf
